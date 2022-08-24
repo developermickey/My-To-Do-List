@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: #efdecc;
+}
+
+#text-box {
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 30px;
+}
+#text-box #textt{
+    margin-top: 10%;
+    width: 250px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    color: blue
+}
+#text-box .addBtn {
+    background-color: #fff;
+    color: blue;
+    padding: 15px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+#text-box #textnew {
+    float: left;
+    font-size: 24px;
+}
+#text-box #textnew li{
+    font-size: 24px;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: left;
+
+}
+
+
